@@ -23,7 +23,7 @@ def download_images(username, download_folder):
             unwanted_extensions = ['.json.xyz', '.txt']
             if not os.path.exists(image_filename) and not any(image_filename.lower().endswith(ext) for ext in unwanted_extensions):
                 # Download image
-                L.download_post(post, target=username)
+                L.download_post(post, target=download_folder)
                 print(f"Image downloaded: {image_filename}")
 
     except instaloader.exceptions.InstaloaderException as e:
