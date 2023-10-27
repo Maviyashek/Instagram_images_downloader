@@ -32,7 +32,6 @@ def download_images(username, download_folder):
 
 
 if __name__ == "__main__":
-    insta_user_names = ['juli.annee','nikkisandiego','mariarzolaa','cathrynli', 'soyneiva', 'neivamara','missbuscemi','brazzersofficial','bangbros','vismaramartina']
+    username=# Enter the username
     download_folder = "downloaded_images"
-    for username in insta_user_names:
-        download_images(username, download_folder)
+    download_images(username, download_folder)
